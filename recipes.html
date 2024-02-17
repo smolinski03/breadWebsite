@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/recipes.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+  </head>
+  <body>
+    <header>
+      <div id="left-section">
+        <button class="header-button" id="go-back">Go back</button>
+        <script>
+          var button = document.getElementById("go-back");
+          button.addEventListener("click", function() {
+              window.location.href = "index.html";
+          });
+        </script>
+        <button class="header-button" id="about-us">About us</button>
+        <script>
+          var button = document.getElementById("about-us");
+          button.addEventListener("click", function() {
+              window.location.href = "about-us.html";
+          });
+        </script>
+      </div>
+      <div id="right-section">&quot;A man who wants bread is ready for anything&quot;</div>
+    </header>
+    <div id="bread-grid">
+      <a href="/white-wheat.html" class="bread-card">
+        <img class="bread-card-thumbnail" src="photos/white-wheat.png">
+        <p class="bread-card-name">White Wheat</p>
+        <p class="bread-card-description">This is your run of the mill white bread...</p>
+      </a>
+      <a href="/banana-bread.html" class="bread-card">
+        <img class="bread-card-thumbnail" src="photos/banana-bread.png">
+        <p class="bread-card-name">Banana Bread</p>
+        <p class="bread-card-description">They've put a banana in my bun...</p>
+      </a>
+      <a href="/focaccia.html" class="bread-card">
+        <img class="bread-card-thumbnail" src="photos/focaccia.png">
+        <p class="bread-card-name">Rosemary Focaccia</p>
+        <p class="bread-card-description">Straight from the Italy...</p>
+      </a>
+      <a href="/honey-beer-bread.html" class="bread-card">
+        <img class="bread-card-thumbnail" src="photos/honey-beer-bread.png">
+        <p class="bread-card-name">Honey Beer Bread</p>
+        <p class="bread-card-description">A bread like no other...</p>
+      </a>
+    </div>
+  </body>

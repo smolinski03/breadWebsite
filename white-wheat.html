@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles/recipe-page.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div id="left-section">
+        <button class="header-button" id="go-back">Go back</button>
+        <script>
+          var button = document.getElementById("go-back");
+          button.addEventListener("click", function() {
+              window.location.href = "index.html";
+          });
+        </script>
+        <button class="header-button" id="recipes">Recipes</button>
+        <script>
+          var button = document.getElementById("recipes");
+          button.addEventListener("click", function() {
+              window.location.href = "recipes.html";
+          });
+        </script>
+      </div>
+      <div id="right-section">&quot;A man who wants bread is ready for anything&quot;</div>
+    </header>
+    <div id="title">
+      <img id="bread-showcase" src="photos/white-wheat.png">
+      <div id="title-text">
+        <p id="title-text-header">White Wheat</p>
+        <p id="title-text-paragraph">This is your run of the mill white bread, it's a great starting point for your baking career. This simple recipe is meant for beginners, so there is nothing to be worried about.</p>
+      </div>
+    </div>
+      <div class="container">
+        <p class="container-header">ingredients</p>
+        <ol>
+          <li class="container-point">7 grams of dried yeast</li>
+          <li class="container-point">1kg strong bread flour</li>
+        </ol>
+      </div><br>
+      <div class="container">
+        <p class="container-header">steps</p>
+        <ol>
+          <li class="container-point">Pour 650ml of tepid water into a large bowl. Add the yeast and mix with a fork for a couple of minutes.</li>
+          <li class="container-point">Pour in most of the flour and half a teaspoon of sea salt, then use a fork to mix together until you can’t move it anymore.</li>
+          <li class="container-point">Now get your clean hands in there and bring it together as a ball of dough, adding more flour as you need to stop your hands and the dough sticking.</li>
+          <li class="container-point">Transfer the dough to a flour-dusted surface and keep it moving, kneading, pushing and stretching it for 5 minutes, or until you have a silky and elastic dough.</li>
+          <li class="container-point">Use your floured hands to shape the dough into a rough ball, put it in a bowl, flour the top and cover with a clean, damp tea towel. Allow it to prove for about an hour or an hour and 30 minutes, or until doubled in size – ideally in a warm, draught-free place.</li>
+          <li class="container-point">Once the dough has doubled in size, knock the air out by punching it with your fist, then kneading for 30 seconds.</li>
+          <li class="container-point">You can now shape it or flavour it as required – folded, filled, traybaked, whatever – and leave it to prove for a second time, for 30 minutes to an hour, or until it has doubled in size once more.</li>
+          <li class="container-point">Preheat the oven to 180ºC/350ºF/gas 4</li>
+          <li class="container-point">Carefully transfer your bread dough to the oven and gently close the door. Bake for about 35 minutes, or until golden. You can tell if it’s cooked by tapping its bottom – if it sounds hollow it’s done; if it doesn’t then pop it back in for a little longer.</li>
+          <li class="container-point">Once cooked, place your loaf on a cooling rack and allow to cool.</li>
+        </ol>
+      </div>
+  </body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles/recipe-page.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div id="left-section">
+        <button class="header-button" id="go-back">Go back</button>
+        <script>
+          var button = document.getElementById("go-back");
+          button.addEventListener("click", function() {
+              window.location.href = "index.html";
+          });
+        </script>
+        <button class="header-button" id="recipes">Recipes</button>
+        <script>
+          var button = document.getElementById("recipes");
+          button.addEventListener("click", function() {
+              window.location.href = "recipes.html";
+          });
+        </script>
+      </div>
+      <div id="right-section">&quot;A man who wants bread is ready for anything&quot;</div>
+    </header>
+    <div id="title">
+      <img id="bread-showcase" src="photos/banana-bread.png">
+      <div id="title-text">
+        <p id="title-text-header">Banana Bread</p>
+        <p id="title-text-paragraph">They've put a banana in my bun, and it works! This delicious recipe is a sweet alternative to conventional bread we all love. </p>
+      </div>
+    </div>
+      <div class="container">
+        <p class="container-header">ingredients</p>
+        <ol>
+          <li class="container-point">flour</li>
+          <li class="container-point">butter</li>
+          <li class="container-point">yogurt</li>
+          <li class="container-point">brown sugar</li>
+          <li class="container-point">bananas (overripe)</li>
+          <li class="container-point">vanilla</li>
+          <li class="container-point">baking powder</li>
+          <li class="container-point">egg</li>
+          <li class="container-point">baking soda</li>
+        </ol>
+      </div><br>
+      <div class="container">
+        <p class="container-header">steps</p>
+        <ol>
+          <li class="container-point">Mash bananas and mix with yogurt and baking soda in a small bowl.</li>
+          <li class="container-point">Combine soft butter, brown sugar, egg and vanilla in a large mixing bowl.</li>
+          <li class="container-point">Add dry ingredients to wet ingredients just until combined. Don’t over-mix.</li>
+          <li class="container-point">egg</li>
+          <li class="container-point">Spoon batter into parchment-lined loaf pan.</li>
+          <li class="container-point">Bake until the tester comes out clean. Cool to room temperature.</li>
+        </ol>
+      </div>
+  </body>
+</html>

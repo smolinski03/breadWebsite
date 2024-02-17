@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/about-us.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+  </head>
+  <body>
+    <header>
+      <div id="left-section">
+        <button class="header-button" id="go-back">Go back</button>
+        <script>
+          var button = document.getElementById("go-back");
+          button.addEventListener("click", function() {
+              window.location.href = "index.html";
+          });
+        </script>
+        <button class="header-button" id="recipes">Recipes</button>
+        <script>
+          var button = document.getElementById("recipes");
+          button.addEventListener("click", function() {
+              window.location.href = "recipes.html";
+          });
+        </script>
+      </div>
+      <div id="right-section">&quot;A man who wants bread is ready for anything&quot;</div>
+    </header>
+    <div id="about-us">
+      <p id="about-us-title">About us</p>
+      <p id="about-us-info">This website was created because we aim to give people knowledge that will help them in maintaining good health without sacrificing the delicious taste of their everyday meals. The recipes you're going to find here are sure to come to the liking of both your tounge and your stomach. If you have some spare time we invite you to get this bread!</p>
+    </div>
+    <div id="contact-info">
+      <p id="contact-info-title">contact-info</p>
+      <div id="contact-info-text">
+        <p>email: s28012@pjwstk.edu.pl</p>
+        <p>phone: +48 123 456 789</p>
+      </div>
+  </body>

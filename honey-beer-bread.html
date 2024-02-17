@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles/recipe-page.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div id="left-section">
+        <button class="header-button" id="go-back">Go back</button>
+        <script>
+          var button = document.getElementById("go-back");
+          button.addEventListener("click", function() {
+              window.location.href = "index.html";
+          });
+        </script>
+        <button class="header-button" id="recipes">Recipes</button>
+        <script>
+          var button = document.getElementById("recipes");
+          button.addEventListener("click", function() {
+              window.location.href = "recipes.html";
+          });
+        </script>
+      </div>
+      <div id="right-section">&quot;A man who wants bread is ready for anything&quot;</div>
+    </header>
+    <div id="title">
+      <img id="bread-showcase" src="photos/honey-beer-bread.png">
+      <div id="title-text">
+        <p id="title-text-header">Honey Beer Bread</p>
+        <p id="title-text-paragraph">A bread like no other, Honey Beer Bread! This specialty is sure to make you question everything you knew about bread.</p>
+      </div>
+    </div>
+      <div class="container">
+        <p class="container-header">ingredients</p>
+        <ol>
+          <li class="container-point">all-purpose flour</li>
+          <li class="container-point">baking powder</li>
+          <li class="container-point">salt</li>
+          <li class="container-point">beer</li>
+          <li class="container-point">honey</li>
+          <li class="container-point">butter</li>
+        </ol>
+      </div><br>
+      <div class="container">
+        <p class="container-header">steps</p>
+        <ol>
+          <li class="container-point">Stir together the dry ingredients in a mixing bowl, then stir in the beer and honey until combined.</li>
+          <li class="container-point">Pour about half of the melted butter into a 9×5-inch bread pan, and brush it all around to grease the inside of the pan. Add the batter and spread it out in an even layer. Then brush the remaining melted butter evenly on top of the batter.</li>
+          <li class="container-point">Bake for 40 to 50 minutes, until a toothpick or knife inserted in the middle comes out clean. Remove and transfer the pan to a wire baking rack and let the bread cool for at least 10 minutes.</li>
+        </ol>
+      </div>
+  </body>
+</html>

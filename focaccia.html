@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles/recipe-page.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div id="left-section">
+        <button class="header-button" id="go-back">Go back</button>
+        <script>
+          var button = document.getElementById("go-back");
+          button.addEventListener("click", function() {
+              window.location.href = "index.html";
+          });
+        </script>
+        <button class="header-button" id="recipes">Recipes</button>
+        <script>
+          var button = document.getElementById("recipes");
+          button.addEventListener("click", function() {
+              window.location.href = "recipes.html";
+          });
+        </script>
+      </div>
+      <div id="right-section">&quot;A man who wants bread is ready for anything&quot;</div>
+    </header>
+    <div id="title">
+      <img id="bread-showcase" src="photos/focaccia.png">
+      <div id="title-text">
+        <p id="title-text-header">Rosemary Focaccia</p>
+        <p id="title-text-paragraph">Straight from the Italy, this special recipe is perfect for a either a party or as a sunday snack. The presence of rosemary really helps to bring out the flavor!</p>
+      </div>
+    </div>
+      <div class="container">
+        <p class="container-header">ingredients</p>
+        <ol>
+          <li class="container-point">flour</li>
+          <li class="container-point">active dry yeast</li>
+          <li class="container-point">olive oil</li>
+          <li class="container-point">rosemary</li>
+          <li class="container-point">honey</li>
+        </ol>
+      </div><br>
+      <div class="container">
+        <p class="container-header">steps</p>
+        <ol>
+          <li class="container-point">Proof the yeast. In the warm water and honey.</li>
+          <li class="container-point">Knead the dough. Gradually add in the flour, olive oil and salt. Then knead for 5 minutes using the dough attachment or a stand mixer, or knead the dough by hand.</li>
+          <li class="container-point">Shape the dough into a ball and place it in a greased mixing bowl, and cover with a damp towel. Let the dough rest in a warm location for 45-60 minutes, or until it has doubled in size.</li>
+          <li class="container-point">Shape the dough into a large circle or rectangle until that the dough is about 1/2-inch thick*. Cover and let the dough continue to rise for another 20 minutes.</li>
+          <li class="container-point">Heat oven to 400°F. Transfer the dough to a large parchment-covered baking sheet. Use your fingers to poke deep dents all over the surface of the dough. Then drizzle a tablespoon or two of olive oil evenly all over the top of the dough, and sprinkle evenly with the fresh rosemary needles and sea salt.</li>
+          <li class="container-point"> Bake for 20 minutes, or until the dough is slightly golden and cooked through.</li>
+        </ol>
+      </div>
+  </body>
+</html>
